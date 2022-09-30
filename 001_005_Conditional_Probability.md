@@ -3,7 +3,7 @@
 ## 条件付き確率
 確率空間 $(S, \Sigma, \mu)$ および、可測空間 $(S_{X}, \Sigma_{X})$ 上に、確率変数 $X$ と、確率分布関数 $P$ が定義されているものとします。
 
-$\sigma_{X_{1}}, \sigma_{X_{2}} \in \Sigma_{X}$ に対し、$P(\sigma_{X_{2}}) \neq 0$ であるとき、
+$\sigma_{X_{1}}, \sigma_{X_{2}} \in \Sigma_{X}$ に対し、 $P(\sigma_{X_{2}}) \neq 0$ であるとき、
 
 $$
 P(\sigma_{X_{1}} | \sigma_{X_{2}}) = \frac{P(\sigma_{X_{1}} \cap \sigma_{X_{2}})}{P(\sigma_{X_{2}})}
