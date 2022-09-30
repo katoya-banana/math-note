@@ -2,7 +2,7 @@
 
 ## 確率変数
 
-確率空間 $(S, \Sigma, \mu)$ および、可測空間 $(S_{X}, \Sigma_{X})$ に対し、ある $(\Sigma, \Sigma_{X})$-可測な関数 $X \colon S \rightarrow S_{X}$ が与えられたとき、$X$ を確率変数とよびます。  
+確率空間 $(S, \Sigma, \mu)$ および、可測空間 $(S_{X}, \Sigma_{X})$ に対し、ある $(\Sigma, \Sigma_{X})$-可測な関数 $X \colon S \rightarrow S_{X}$ が与えられたとき、 $X$ を確率変数とよびます。  
 $X$ が $(\Sigma, \Sigma_{X})$-可測であるため、以下が成り立ちます。
 
 $$
