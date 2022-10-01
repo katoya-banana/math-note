@@ -6,14 +6,14 @@
 このとき、以下で定義される関数 $P \colon \Sigma_{X} \rightarrow [0, 1]$ を、 $X$ の確率分布関数とよびます。  
 
 $$
-P(\sigma_{X}) = \mu(X^{-1}(\sigma_{X})) = \mu(\{s| s \in S, X(s) \in \sigma_{X} \})
+P(\sigma_{X}) = \mu(X^{-1}(\sigma_{X})) = \mu(\lbrace s| s \in S, X(s) \in \sigma_{X} \rbrace )
 $$
 
 ## 省略記法
 ある論理式 $\phi(x)$ が存在し、
 
 $$
-P(\phi(X)) = \mu(\{s| s \in S, \phi(X(s)) \})
+P(\phi(X)) = \mu(\lbrace s| s \in S, \phi(X(s)) \rbrace )
 $$
 
 と書くことにします。
