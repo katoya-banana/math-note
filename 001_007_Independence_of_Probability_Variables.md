@@ -3,7 +3,7 @@
 ## 確率変数の独立
 確率空間 $(S, \Sigma, \mu)$ が定義されているものとします。  
 
-また、添え字集合 $\Lambda$ を用いて、可測空間の集合 $\lbrace (S_{\lambda}, \Sigma_{\lambda}) \rbrace_{\lambda \in \Lambda}$ と、確率変数の集合 $\lbrace X_{\lambda} \rbrace_{\lambda \in \Lambda} $ と、確率分布関数の集合 $\lbrace P_{\lambda} \rbrace_{\lambda \in \Lambda}$ が与えられたとします。ただし、$X_{\lambda}$ は $(\Sigma, \Sigma_{\lambda})$-可測な関数であり、 $P_{\lambda} \colon \Sigma_{\lambda} \rightarrow [0,1]$ です。
+また、添え字集合 $\Lambda$ を用いて、可測空間の集合 $\lbrace (S_{\lambda}, \Sigma_{\lambda}) \rbrace_{\lambda \in \Lambda}$ と、確率変数の集合 $\lbrace X_{\lambda}  \rbrace_{\lambda \in \Lambda}$ と、確率分布関数の集合 $\lbrace P_{\lambda} \rbrace_{\lambda \in \Lambda}$ が与えられたとします。ただし、 $X_{\lambda}$ は $(\Sigma, \Sigma_{\lambda})$-可測な関数であり、 $P_{\lambda} \colon \Sigma_{\lambda} \rightarrow [0,1]$ です。
 
 任意の相違なる有限個の $\Lambda$ の元 $\lambda_{1}, \lambda_{2}, \dots, \lambda_{n}$ について、
 
