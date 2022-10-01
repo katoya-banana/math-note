@@ -18,7 +18,7 @@ b_{1} = X^{-1}(\sigma_{x, 1})
 $$
 
 $$
-B_{1} = \{b_{1}, S \backslash b_{1}\}
+B_{1} = \lbrace b_{1}, S \backslash b_{1} \rbrace
 $$
 
 $$
@@ -26,7 +26,7 @@ b_{2} = X^{-1}(\sigma_{x, 2})
 $$
 
 $$
-B_{2} = \{b_{2}, S \backslash b_{2}\}
+B_{2} = \lbrace b_{2}, S \backslash b_{2} \rbrace
 $$
 
 であり、 $\Sigma_{1}$ は $b_{1}$ から生成される $\sigma$ -加法族、 $\Sigma_{2}$ は $b_{2}$ から生成される $\sigma$ -加法族です。
