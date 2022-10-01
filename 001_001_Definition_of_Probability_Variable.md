@@ -9,10 +9,10 @@ $$
 \sigma_{X} \in \Sigma_{X} \Rightarrow \{s| s \in S, X(s) \in \sigma_{X} \} \in \Sigma
 $$
 
-このとき $X^{-1} \colon \Sigma_{X} \rightarrow \Sigma$ を、
+このとき逆像 $X^{-1} \colon \Sigma_{X} \rightarrow \Sigma$ を、
 
 $$
 X^{-1}(\sigma_{X}) = \{s| s \in S, X(s) \in \sigma_{X} \}
 $$
 
-と定義します。一般的な逆関数とは定義域と値域が異なり、それぞれの $\sigma$ 加法族をとる点に注意してください。
+と定義します。逆像は逆関数とは異なり、定義域と値域にそれぞれの $\sigma$ 加法族をとる点に注意してください。
