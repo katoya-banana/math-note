@@ -11,3 +11,8 @@ $$
 \forall \sigma_{X} \in \Sigma_{X}, P(\sigma_{X}) = \displaystyle{\int_{\sigma_{X}} f\ d\lambda}
 $$
 
+
+## 確率密度関数の一意性について
+
+ある関数 $f, g$ が上記の条件を満たすとき、$f$ と $g$ はほとんどいたるところで一致します。  
+任意の $s_{X} \in S_{X}$ で $f(s_{X}) = g(s_{X})$ が成り立つとは限らない点に注意してください。

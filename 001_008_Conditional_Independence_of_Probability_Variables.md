@@ -17,4 +17,4 @@ $$
 ただし、関数 $P$ は確率変数 $\overrightarrow{X} = (X_{\lambda_{1}}, X_{\lambda_{2}}, \dots, X_{\lambda_{n}})$ に対する $\Sigma_{c}$ 上の条件付き確率分布関数 $P \colon \Sigma_{\lambda_{1}} \times \Sigma_{\lambda_{2}} \times \dots \times \Sigma_{\lambda_{n}} \times B_{c} \rightarrow [0, 1]$ です。
 
 ## 確率変数の条件付き独立（確率変数による場合）
-有限個の確率変数 $C_{1}, C_{2}, \dots, C_{n}$ から誘導される $\sigma$ -加法族 $\Sigma_{c}$ について、確率変数の集合 $\lbrace X_{\lambda} \rbrace_{\lambda \in \Lambda}$ が $\Sigma_{c}$ の下で条件付き独立である場合、代わりに、確率変数の集合 $\lbrace X_{\lambda} \rbrace_{\lambda \in \Lambda}$ が確率変数 $C_{1}, C_{2}, \dots, C_{n}$ の下で条件付き独立であるといいます。
+添え字集合 $\Xi$ を用いて与えられる確率変数の集合 $\lbrace C_{\xi} \rbrace_{\xi \in \Xi}$ から誘導される $\sigma$ -加法族 $\Sigma_{c}$ について、確率変数の集合 $\lbrace X_{\lambda} \rbrace_{\lambda \in \Lambda}$ が $\Sigma_{c}$ の下で条件付き独立である場合、代わりに、確率変数の集合 $\lbrace X_{\lambda} \rbrace_{\lambda \in \Lambda}$ が確率変数の集合 $\lbrace C_{\xi} \rbrace_{\xi \in \Xi}$ の下で条件付き独立であるといいます。
