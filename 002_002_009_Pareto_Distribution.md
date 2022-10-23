@@ -9,10 +9,11 @@ $$
 確率密度関数 $f \colon [0,\infty) \rightarrow [0, \infty)$ は以下のようにあらわされます。
 
 $$
-f(x) = \left\{
 \begin{array}{ll}
+f(x) = 
+\begin{cases}
 \frac{\alpha}{\beta} \times (\frac{\beta}{x})^{\alpha + 1} & (\beta \leq x)\\
 0 & (x \lt \beta)
+\end{cases}
 \end{array}
-\right.
 $$

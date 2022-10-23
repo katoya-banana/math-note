@@ -25,13 +25,13 @@ $$
 以下を満たす $f \colon \mathbb{N}^{k} \rightarrow [0, 1]$ を用いて、
 
 $$
-f(x_{1}, x_{2}, \dots, x_{k}) = 
-\left\{
 \begin{array}{ll}
+f(x_{1}, x_{2}, \dots, x_{k}) = 
+\begin{cases}
 \frac{n!}{\displaystyle{\prod_{i=1}^{k} x_{i}! }} \times \displaystyle{\prod_{i=1}^{k} p_{i}^{x_{i}}} & (\displaystyle{\sum_{i=1}^{k} x_{i} = n})\\
 0 & (\displaystyle{\sum_{i=1}^{k} x_{i} \neq n})
+\end{cases}
 \end{array}
-\right.
 $$
 
 確率分布関数 $P \colon (2^{\mathbb{N}})^{k} \rightarrow [0, 1]$ は以下のようにあらわされます。

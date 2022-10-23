@@ -16,11 +16,11 @@ $$
 確率密度関数 $f \colon [0,1]^{k} \rightarrow [0, \infty)$ は以下のようにあらわされます。
 
 $$
-f(x_{1}, x_{2}, \dots, x_{k}) = 
-\left\{
 \begin{array}{ll}
+f(x_{1}, x_{2}, \dots, x_{k}) = 
+\begin{cases}
 \frac{\Gamma(\displaystyle{\sum_{i=1}^{k} \alpha_{i}})}{\displaystyle{\prod_{i=1}^{k}\Gamma(\alpha_{i})}} \times \displaystyle{\prod_{i=1}^{k} x_{i}^{\alpha_{i}}} & (\displaystyle{\sum_{i=1}^{k} x_{i} = 1})\\
 0 & (\displaystyle{\sum_{i=1}^{k} x_{i} \neq 1})
+\end{cases}
 \end{array}
-\right.
 $$

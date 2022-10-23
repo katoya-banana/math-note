@@ -24,13 +24,13 @@ $$
 以下を満たす $f \colon \mathbb{N} \rightarrow [0, 1]$ を用いて、
 
 $$
-f(x) = 
-\left\{
 \begin{array}{ll}
+f(x) = 
+\begin{cases}
 p_{x} & (x \in \lbrace 1, 2, \dots, k \rbrace)\\
 0 & (x \notin \lbrace 1, 2, \dots, k \rbrace)
+\end{cases}
 \end{array}
-\right.
 $$
 
 確率分布関数 $P \colon 2^{\mathbb{N}} \rightarrow [0, 1]$ は以下のようにあらわされます。
