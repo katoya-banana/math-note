@@ -5,7 +5,7 @@
 
 
 $$
-\Theta ' = \displaystyle{\argmax_{\theta \in \Theta} L_{\theta}(d)}
+\Theta ' = \underset{\theta \in \Theta}{\operatorname{arg max}} \ L_{\theta}(d)
 $$
 
 として、 $\Theta$ の部分集合 $\Theta'$ を得る操作を、最尤推定と呼びます。
