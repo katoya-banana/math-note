@@ -6,13 +6,13 @@
 このとき、パラメータ $\theta \in \Theta$ によって特徴づけられる尤度関数 $L_{\theta} \colon D \rightarrow [0, \infty]$ と、観測値 $d \in D$ が与えられたときに、
 
 $$
-\Theta ' = \displaystyle{\argmax_{\theta \in \Theta} L_{\theta}(d) P(X_{\Theta} = \theta)}
+\Theta ' = \underset{\theta \in \Theta}{\operatorname{arg max}} \ L_{\theta}(d) P(X_{\Theta} = \theta)
 $$
 
 または
 
 $$
-\Theta ' = \displaystyle{\argmax_{\theta \in \Theta} L_{\theta}(d)} f(\theta)
+\Theta ' = \underset{\theta \in \Theta}{\operatorname{arg max}} \ L_{\theta}(d) f(\theta)
 $$
 
 
