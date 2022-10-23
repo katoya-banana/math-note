@@ -18,7 +18,6 @@ $$
 
 $$
 \forall \sigma_{X} \in \lbrace \displaystyle{\prod_{\lambda \in \Lambda}} \sigma_{\lambda} | \sigma_{\lambda} \in \Sigma_{\lambda}, \lambda \notin \Lambda' \Leftrightarrow \sigma_{\lambda} = S_{\lambda} \rbrace, \ P(\sigma_{X}) = \displaystyle{\prod_{\lambda \in \Lambda'} P_{\lambda}(\sigma_{\lambda})}
-
 $$
 
 が成り立つとき、確率変数の集合 $\lbrace X_{\lambda} \rbrace _{\lambda \in \Lambda}$ が独立であるといいます。
