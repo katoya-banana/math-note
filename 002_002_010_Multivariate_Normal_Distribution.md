@@ -9,8 +9,11 @@ $$
 
 ## 確率分布関数の値に関するパラメータ
 $$
-\overrightarrow{\mu} \in \mathbb{R}^{k} \\
-V \in \mathbb{R}^{k \times k} \\
+\overrightarrow{\mu} \in \mathbb{R}^{k}
+$$
+
+$$
+V \in \mathbb{R}^{k \times k}
 $$
 
 ただし、 $V$ は正定値行列であるものとします。  

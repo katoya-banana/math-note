@@ -6,7 +6,10 @@
 このとき、任意の $\sigma_{X, 1}, \sigma_{X, 2} \in \Sigma_{X}$ について以下が成り立ちます。
 
 $$
-X^{-1}(\sigma_{X, 1}) = \delta_{1} \\
+X^{-1}(\sigma_{X, 1}) = \delta_{1}
+$$
+
+$$
 X^{-1}(\sigma_{X, 2}) = \delta_{2}
 $$
 
@@ -15,7 +18,10 @@ $$
 $S$ の分割 
 
 $$
-\Delta_{1} = \lbrace \delta_{1}, S \backslash \delta_{1} \rbrace \\
+\Delta_{1} = \lbrace \delta_{1}, S \backslash \delta_{1} \rbrace
+$$
+
+$$
 \Delta_{2} = \lbrace \delta_{2}, S \backslash \delta_{2} \rbrace
 $$
 

@@ -8,8 +8,11 @@
 また、
 
 $$
-S_{X} = \displaystyle{\prod_{\lambda \in \Lambda} S_{\lambda}} \\
- \Sigma_{X} = \lbrace \displaystyle{\prod_{\lambda \in \Lambda}} \sigma_{\lambda} | \sigma_{\lambda} \in \Sigma_{\lambda} \rbrace
+S_{X} = \displaystyle{\prod_{\lambda \in \Lambda} S_{\lambda}}
+$$
+
+$$
+\Sigma_{X} = \lbrace \displaystyle{\prod_{\lambda \in \Lambda}} \sigma_{\lambda} | \sigma_{\lambda} \in \Sigma_{\lambda} \rbrace
 $$
 
 としたとき、 $(S_{X}, \Sigma_{X})$ は可測空間であり、これに対する確率変数 $X$ とそれに対する確率分布関数 $P$ を定義します。

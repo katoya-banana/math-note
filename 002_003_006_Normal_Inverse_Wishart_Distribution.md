@@ -9,10 +9,19 @@ $$
 
 ## 確率分布関数の値に関するパラメータ
 $$
-\overrightarrow{\mu_0} \in \mathbb{R}^{k} \\
-\lambda \in (0, \infty) \\
-\Psi \in \mathbb{R}^{k \times k} \\
-\nu \in (D-1, \infty) \\
+\overrightarrow{\mu_0} \in \mathbb{R}^{k}
+$$
+
+$$
+\lambda \in (0, \infty)
+$$
+
+$$
+\Psi \in \mathbb{R}^{k \times k}
+$$
+
+$$
+\nu \in (D-1, \infty)
 $$
 
 ただし、 $\Psi$ は正定値行列であるものとします。  
