@@ -32,6 +32,6 @@ $E$ の要素 $(i, j)$ は、 $i$ から $j$ に有向辺が張られている�
 
 
 ## ベイジアンネットワーク
-ある、非巡回有向グラフ $G = (V, E)$ と、その頂点数に等しい個数の、条件付確率分布関数 $P_{k} \colon \Sigma_{k} \times \Delta_{k} \rightarrow [0,1] $ の組を、ベイジアンネットワークと呼びます。
+ある、非巡回有向グラフ $G = (V, E)$ と、その頂点数に等しい個数の、条件付確率分布関数 $P_{k} \colon \Sigma_{k} \times \Delta_{k} \rightarrow [0,1]$ の組を、ベイジアンネットワークと呼びます。
 
-また、確率分布関数 $P \colon \Sigma_{1} \times \Sigma_{2} \times \dots \times \Sigma_{n} \rightarrow [0, 1]$ が、上記の近似式によって誤差なく近似される場合、確率分布関数 $P$ がベイジアンネットワーク $(G, P_{1}, P_{2}, \dots, P_{n})$ に従うと言います。
+また、確率分布関数 $P \colon \Sigma_{1} \times \Sigma_{2} \times \dots \times \Sigma_{n} \rightarrow [0,1]$ が、上記の近似式によって誤差なく近似される場合、確率分布関数 $P$ がベイジアンネットワーク $(G, P_{1}, P_{2}, \dots, P_{n})$ に従うと言います。
