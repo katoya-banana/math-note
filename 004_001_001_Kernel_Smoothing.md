@@ -12,7 +12,7 @@ $$
 
 ## 代表点
 
-有限個の代表点 $P_{1}, P_{2}, \dots, P_{n} \in \mathbb{R}^d $ をとります。
+有限個の代表点 $P_{1}, P_{2}, \dots, P_{n} \in \mathbb{R}^{d}$ をとります。
 
 任意の $i, j \in \lbrace 1, 2, \dots, n \rbrace$ について、 $i \neq j \Leftrightarrow P_{1} \neq P_{j}$ です。
 
@@ -24,5 +24,5 @@ $$
 \overline{f}(P) = \frac{\displaystyle{\sum_{i=1}^{n}K(P_{i}, P)}f(P_{i})}{\displaystyle{\sum_{i=1}^{n}K(P_{i}, P)}}
 $$
 
-Kernel Function の形状によっては、 $\exist i, \overline{f}(P_{i}) \neq f(P_{i})$ が成り立つ場合がある点に注意してください。
+Kernel Function の形状によっては、 $\exists i, \overline{f}(P_{i}) \neq f(P_{i})$ が成り立つ場合がある点に注意してください。
 
