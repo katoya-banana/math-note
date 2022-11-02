@@ -18,7 +18,7 @@ $$
 \mathbb{P} = \lbrace (q_{1}, q_{2}, \dots, q_{d}) | i \in \lbrace 1, 2, \dots, d\rbrace, q_{i} \in \lbrace 0, 1\rbrace \rbrace
 $$
 
-となります。代表点の個数は $2^{d}$ 個で、辞書順に早い方から $P_{1}, P_{2}, \dots, P_{2^{d}}$ と呼ぶことにします。
+となります。代表点の個数は $2^{d}$ 個です。
 
 ## 線形補完
 
@@ -36,8 +36,9 @@ f(P) & (P \in \mathbb{P}) \\
 $$
 
 ただし、
+
 $$
-P = (q_{1}, q_{2}, \dots, q_{n}) \in [0, 1]^{d}
+P = (q_{1}, q_{2}, \dots, q_{d}) \in [0, 1]^{d}
 $$
 
 $$
@@ -45,11 +46,11 @@ i = \operatorname{min}(\lbrace j | q_{j} \notin \lbrace 0, 1 \rbrace \rbrace)
 $$
 
 $$
-P_{i,0} = (q_{1}, q_{2}, \dots, q_{i-1}, 0, q_{i+1}, \dots, q_{n}) \in [0, 1]^{d}
+P_{i,0} = (q_{1}, q_{2}, \dots, q_{i-1}, 0, q_{i+1}, \dots, q_{d}) \in [0, 1]^{d}
 $$
 
 $$
-P_{i,1} = (q_{1}, q_{2}, \dots, q_{i-1}, 1, q_{i+1}, \dots, q_{n}) \in [0, 1]^{d}
+P_{i,1} = (q_{1}, q_{2}, \dots, q_{i-1}, 1, q_{i+1}, \dots, q_{d}) \in [0, 1]^{d}
 $$
 
 とします。
