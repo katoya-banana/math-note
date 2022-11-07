@@ -2,7 +2,10 @@
 
 ## 確率分布関数の値に関するパラメータ
 $$
-n \in \mathbb{N}\\
+n \in \mathbb{N}
+$$
+
+$$
 \alpha, \beta \in [0, \infty)
 $$
 
