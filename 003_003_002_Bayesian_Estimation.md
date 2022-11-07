@@ -12,10 +12,10 @@ $$
 または
 
 $$
-f'(\theta) = \frac{L_{\theta}(d) f(\theta)}{\displaystyle{\int_{\Theta} L_{\theta}(d) f(\theta) \ d \mu_{\theta}}}
+f^{'}(\theta) = \frac{L_{\theta}(d) f(\theta)}{\displaystyle{\int_{\Theta} L_{\theta}(d) f(\theta) \ d \mu_{\theta}}}
 $$
 
 
-として、関数 $P' \colon \Sigma_{\Theta} \rightarrow [0, 1]$ または、関数 $f' \colon \Theta \rightarrow [0, \infty]$ を得る操作を、ベイズ推定と呼びます。
+として、関数 $P^{'} \colon \Sigma_{\Theta} \rightarrow [0, 1]$ または、関数 $f^{'} \colon \Theta \rightarrow [0, \infty]$ を得る操作を、ベイズ推定と呼びます。
 
-このようにして得られる $P'$ は $X_{\Theta}$ の確率分布関数、 $f'$ は $X_{\Theta}$ の確率密度関数となる条件を満たしていることに注意してください。
+このようにして得られる $P^{'}$ は $X_{\Theta}$ の確率分布関数、 $f^{'}$ は $X_{\Theta}$ の確率密度関数となる条件を満たしていることに注意してください。
