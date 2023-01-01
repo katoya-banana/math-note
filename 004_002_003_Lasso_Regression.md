@@ -44,7 +44,7 @@ $$
 としたとき、
 
 $$
-\displaystyle{\overrightarrow{\beta} = \argmin_{\overrightarrow{\beta}}((Y − X \overrightarrow{\beta})^{T}(y − X \overrightarrow{\beta}) + \alpha ||\overrightarrow{\beta}||_{1})}
+\underset{\overrightarrow{\beta}}{\operatorname{argmin}}  ((Y − X \overrightarrow{\beta})^{T}(Y − X \overrightarrow{\beta}) + \alpha \|\|\overrightarrow{\beta}\|\|_{1})
 $$
 
-です。ただし $\alpha \in [0, \infty)$ はパラメータであり、 $||\overrightarrow{\beta}||_{1}$ は $\overrightarrow{\beta}$ の L1 ノルムです。
+です。ただし $\alpha \in [0, \infty)$ はパラメータであり、 $\|\|\overrightarrow{\beta}\|\|_{1}$ は $\overrightarrow{\beta}$ の L1 ノルムです。
