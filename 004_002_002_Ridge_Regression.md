@@ -48,10 +48,8 @@ $$
 
 です。ただし $\alpha \in [0, \infty)$ はパラメータです。
 
-この $\overrightarrow{\beta}$ は以下と等しいです。ただし、 $||\overrightarrow{\beta}||_{2}$ は $\overrightarrow{\beta}$ の L2 ノルムです。
+この $\overrightarrow{\beta}$ は以下と等しいです。ただし、 $\|\|\overrightarrow{\beta}\|\|_{2}$ は $\overrightarrow{\beta}$ の L2 ノルムです。
 
 $$
-\displaystyle{\argmin_{\overrightarrow{\beta}} ((Y − X \overrightarrow{\beta})^{T}(y − X \overrightarrow{\beta}) + \alpha ||\overrightarrow{\beta}||_{2})}
+\underset{\overrightarrow{\beta}}{\operatorname{argmin}}  ((Y − X \overrightarrow{\beta})^{T}(y − X \overrightarrow{\beta}) + \alpha \|\|\overrightarrow{\beta}\|\|_{2})
 $$
-
-
