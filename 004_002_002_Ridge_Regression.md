@@ -51,5 +51,5 @@ $$
 この $\overrightarrow{\beta}$ は以下と等しいです。ただし、 $\|\|\overrightarrow{\beta}\|\|_{2}$ は $\overrightarrow{\beta}$ の L2 ノルムです。
 
 $$
-\underset{\overrightarrow{\beta}}{\operatorname{argmin}}  ((Y − X \overrightarrow{\beta})^{T}(y − X \overrightarrow{\beta}) + \alpha \|\|\overrightarrow{\beta}\|\|_{2})
+\underset{\overrightarrow{\beta}}{\operatorname{argmin}}  ((Y − X \overrightarrow{\beta})^{T}(Y − X \overrightarrow{\beta}) + \alpha \|\|\overrightarrow{\beta}\|\|_{2})
 $$
