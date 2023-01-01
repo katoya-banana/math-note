@@ -51,5 +51,5 @@ $$
 この $\overrightarrow{\beta}$ は以下と等しいです。
 
 $$
-\displaystyle{\argmin_{\overrightarrow{\beta}} (Y − X \overrightarrow{\beta})^{T}(y − X \overrightarrow{\beta})}
+\underset{\overrightarrow{\beta}}{\operatorname{argmin}} (Y − X \overrightarrow{\beta})^{T}(y − X \overrightarrow{\beta})
 $$
