@@ -30,7 +30,7 @@ $$
 確率密度関数 $f \colon \mathbb{R}^{k} \times \mathbb{R}^{k \times k} \rightarrow [0, \infty)$ は以下のようにあらわされます。
 
 $$
-f(\overrightarrow{\mu}, V) = \frac{1}{\sqrt{2\pi}^{k}} \frac{\sqrt{\lambda}^{k}}{ \sqrt{|V|}} e^{- \frac{\lambda}{2} (\overrightarrow{x} - \overrightarrow{\mu})^{T} V^{-1} (\overrightarrow{x} - \overrightarrow{\mu})} \frac{\sqrt{|\Psi|}^\nu}{\Gamma_{k}(\frac{\nu}{2}) \sqrt{2}^{\nu k} \sqrt{V}^{\frac{\nu + k + 1}{2}}} e^{― \frac{1}{2} Tr(\Psi V^{-1})}
+f(\overrightarrow{\mu}, V) = \frac{1}{\sqrt{2\pi}^{k}} \frac{\sqrt{\lambda}^{k}}{ \sqrt{\|V\|}} e^{- \frac{\lambda}{2} (\overrightarrow{x} - \overrightarrow{\mu})^{T} V^{-1} (\overrightarrow{x} - \overrightarrow{\mu})} \frac{\sqrt{\|\Psi\|}^\nu}{\Gamma_{k}(\frac{\nu}{2}) \sqrt{2}^{\nu k} \sqrt{V}^{\frac{\nu + k + 1}{2}}} e^{― \frac{1}{2} Tr(\Psi V^{-1})}
 $$
 
 ただし、 $Tr$ は行列のトレースを返す関数、 $\Gamma_{k}$ は多変量ガンマ関数である点に注意してください。

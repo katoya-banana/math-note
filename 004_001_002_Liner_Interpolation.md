@@ -15,7 +15,7 @@ $$
 代表点の集合は
 
 $$
-\mathbb{P} = \lbrace (q_{1}, q_{2}, \dots, q_{d}) | i \in \lbrace 1, 2, \dots, d\rbrace, q_{i} \in \lbrace 0, 1\rbrace \rbrace
+\mathbb{P} = \lbrace (q_{1}, q_{2}, \dots, q_{d}) \mid i \in \lbrace 1, 2, \dots, d\rbrace, q_{i} \in \lbrace 0, 1\rbrace \rbrace
 $$
 
 となります。代表点の個数は $2^{d}$ 個です。
@@ -42,7 +42,7 @@ P = (q_{1}, q_{2}, \dots, q_{d}) \in [0, 1]^{d}
 $$
 
 $$
-i = \operatorname{min}(\lbrace j | q_{j} \notin \lbrace 0, 1 \rbrace \rbrace)
+i = \operatorname{min}(\lbrace j \mid q_{j} \notin \lbrace 0, 1 \rbrace \rbrace)
 $$
 
 $$

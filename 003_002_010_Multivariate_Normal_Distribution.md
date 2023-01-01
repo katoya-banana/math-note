@@ -23,5 +23,5 @@ $$
 確率密度関数 $f \colon \mathbb{R}^{k} \rightarrow [0, \infty)$ は以下のようにあらわされます。
 
 $$
-f(\overrightarrow{x}) = \frac{1}{\sqrt{2\pi}^{k}} \frac{1}{ \sqrt{|V|}} e^{- \frac{1}{2} (\overrightarrow{x} - \overrightarrow{\mu})^{T} V^{-1} (\overrightarrow{x} - \overrightarrow{\mu})}
+f(\overrightarrow{x}) = \frac{1}{\sqrt{2\pi}^{k}} \frac{1}{ \sqrt{\|V\|}} e^{- \frac{1}{2} (\overrightarrow{x} - \overrightarrow{\mu})^{T} V^{-1} (\overrightarrow{x} - \overrightarrow{\mu})}
 $$

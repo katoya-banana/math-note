@@ -6,13 +6,13 @@
 $X$ が $(\Sigma, \Sigma_{X})$-可測であるため、以下が成り立ちます。
 
 $$
-\sigma_{X} \in \Sigma_{X} \Rightarrow \lbrace s \in S | X(s) \in \sigma_{X} \rbrace \in \Sigma
+\sigma_{X} \in \Sigma_{X} \Rightarrow \lbrace s \in S \mid X(s) \in \sigma_{X} \rbrace \in \Sigma
 $$
 
 このとき逆像 $X^{-1} \colon \Sigma_{X} \rightarrow \Sigma$ を、
 
 $$
-X^{-1}(\sigma_{X}) = \lbrace s \in S | X(s) \in \sigma_{X} \rbrace
+X^{-1}(\sigma_{X}) = \lbrace s \in S \mid X(s) \in \sigma_{X} \rbrace
 $$
 
 と定義します。逆像は逆関数とは異なり、定義域と値域にそれぞれの $\sigma$ 加法族をとる点に注意してください。

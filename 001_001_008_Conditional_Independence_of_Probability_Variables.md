@@ -12,7 +12,7 @@ S_{X} = \displaystyle{\prod_{\lambda \in \Lambda} S_{\lambda}}
 $$
 
 $$
-\Sigma_{X} = \lbrace \displaystyle{\prod_{\lambda \in \Lambda}} \sigma_{\lambda} | \sigma_{\lambda} \in \Sigma_{\lambda} \rbrace
+\Sigma_{X} = \lbrace \displaystyle{\prod_{\lambda \in \Lambda}} \sigma_{\lambda} \subseteq S_{X}  \mid \sigma_{\lambda} \in \Sigma_{\lambda} \rbrace
 $$
 
 としたとき、 $(S_{X}, \Sigma_{X})$ は可測空間であり、これに対する確率変数 $X$ と、それに対する $\Delta_{c}$ による条件付き確率分布関数 $P$ を定義します。
@@ -20,7 +20,7 @@ $$
 このとき、$\Lambda$ の任意の有限部分集合 $\Lambda'$ について、
 
 $$
-\forall \delta_{c} \in \Delta_{c}, \forall \sigma_{X} \in \lbrace \displaystyle{\prod_{\lambda \in \Lambda}} \sigma_{\lambda} | \sigma_{\lambda} \in \Sigma_{\lambda}, \lambda \notin \Lambda' \Leftrightarrow \sigma_{\lambda} = S_{\lambda} \rbrace, \ P(\sigma_{X}|\delta_{c}) = \displaystyle{\prod_{\lambda \in \Lambda'} P_{\lambda}(\sigma_{\lambda}|\delta_{c})}
+\forall \delta_{c} \in \Delta_{c}, \forall \sigma_{X} \in \lbrace \displaystyle{\prod_{\lambda \in \Lambda}} \sigma_{\lambda} \mid \sigma_{\lambda} \in \Sigma_{\lambda}, \lambda \notin \Lambda' \Leftrightarrow \sigma_{\lambda} = S_{\lambda} \rbrace, \ P(\sigma_{X}\mid\delta_{c}) = \displaystyle{\prod_{\lambda \in \Lambda'} P_{\lambda}(\sigma_{\lambda}\mid\delta_{c})}
 $$
 
 が成り立つとき、確率変数の集合 $\lbrace X_{\lambda} \rbrace_{\lambda \in \Lambda}$ が $\Sigma_{c}$ の下で条件付き独立であるといいます。

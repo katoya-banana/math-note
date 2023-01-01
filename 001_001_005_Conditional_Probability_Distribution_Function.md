@@ -14,7 +14,7 @@ $$
 このとき、以下を満たすような関数 $P \colon \Sigma_{X} \times \Delta_{c} \rightarrow [0,1]$ を、 $X$ の $\Sigma_{c}$ 上の条件付き確率分布関数と呼びます。
 
 $$
-\exists s \in \delta_{c} \in \Delta_{c},\ P(\sigma_{X}|\delta_{c}) = f_{\sigma_{X}}(s)
+\exists s \in \delta_{c} \in \Delta_{c},\ P(\sigma_{X}\mid\delta_{c}) = f_{\sigma_{X}}(s)
 $$
 
 等式の右辺の値が $s$ の取り方によらないことに注意してください。

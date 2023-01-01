@@ -28,6 +28,6 @@ $$
 によって定義される、条件付確率  $P_{1} \colon \Sigma_{X} \times \Delta_{1} \rightarrow [0, 1], P_{2} \colon \Sigma_{X} \times \Delta_{2} \rightarrow [0, 1]$ について、
 
 $$
-P_{1}(\sigma_{X, 2}|\delta_{1}) P(\sigma_{X, 1}) = P_{2}(\sigma_{X, 1}|\delta_{2}) P(\sigma_{X, 2})
+P_{1}(\sigma_{X, 2}\mid\delta_{1}) P(\sigma_{X, 1}) = P_{2}(\sigma_{X, 1}\mid\delta_{2}) P(\sigma_{X, 2})
 $$
 
